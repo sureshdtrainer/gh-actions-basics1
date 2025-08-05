@@ -3,16 +3,16 @@ name: Basic Workflow
 on: push
 
 jobs: 
-    echo-hello:
-        runs-on: ubuntu-latest
+  echo-hello:
+    runs-on: ubuntu-latest
 
-        steps:
-            - name:  Echo Hello
-              run: echo "Hello, World!"
+    steps:
+      - name:  Echo Hello
+        run: echo "Hello, World!"
 
-    echo-goodbye:
-        runs-on: ubuntu-latest
+  echo-goodbye:
+    runs-on: ubuntu-latest
 
-        steps:
-            - name:  Echo Goodbye
-              run: echo "Goobye, World!"
+    steps:
+      - name:  Echo Goodbye
+        run: echo "Goobye, World!"
