@@ -2,7 +2,9 @@ name: Basic Workflow
 
 #on: push
 
-on: workflow_dispatch
+on: 
+  - push 
+  - workflow_dispatch
 
 jobs: 
   echo-hello:
